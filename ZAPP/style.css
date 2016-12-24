@@ -1,0 +1,185 @@
+html {overflow-x: hidden;}
+
+
+
+  * {
+    margin:0;
+      top: 0;
+    padding:0;
+  }
+
+
+#Background {width: 100vw;
+position: absolute;
+    overflow-x: hidden;
+left: 0;
+    width: 103vw;
+    z-index: 1;
+top: -1vw;}
+
+#Background2 {width: 100vw;
+height: 90vw;
+top: 108.5vw;
+background-color: #E59E5B;
+position: absolute;}
+
+
+
+#Home {z-index: 2;
+position: fixed;
+height: 4.5vw;
+top: 2vw;
+    width: 4.5vw;
+left: 2vw;}
+
+#Footer {z-index: 3;
+position: absolute;
+width: 150vw;
+    left: 0;
+    top: 196vw;
+}
+
+#Twitter {z-index: 10;
+position: absolute;
+height: 3.9vw;
+left: 43vw;
+top: 197.4vw;
+filter: brightness(0.9);
+transition: all 0.5s ease;}
+
+#Twitter:hover {filter: opacity(0.6);
+    -webkit-filter:opacity(0.6);
+)}
+
+
+#Insta {z-index: 10;
+position: absolute;
+height: 3.9vw;
+left: 47.5vw;
+top: 197.4vw;
+filter: brightness(0.9);
+    transition: all 0.5s ease;
+}
+
+#Insta:hover {filter: opacity(0.6);
+    -webkit-filter: opacity(0.6);
+)}
+
+#Dribbble {z-index: 10;
+position: absolute;
+height: 3.9vw;
+    width: 3.9vw;
+left: 52vw;
+top: 197.4vw;
+filter: brightness(0.9);
+transition: all 0.5s ease;
+}
+
+#Dribbble:hover {filter: opacity(0.6);
+    -webkit-filter:opacity(0.6);
+)}
+
+#Title {font-family: Amatic SC, sans-serif;
+z-index: 20;
+    position: absolute;
+left: 24vw;
+    text-align: center;
+top: 11.5vw;
+    font-size: 3.5vw;
+    color: #4D2718;
+}
+
+
+#Cthulhu1 {position: absolute;
+z-index: 200;
+height: 20vw;
+height: 35vw; 
+left: 28vw;
+top: 95vw;
+border: 4px solid #b06244;}
+
+#Cthulhu2 {position: absolute;
+z-index: 200;
+height: 33vw;
+left: 25vw;
+top: 152vw;}
+
+#Zapp {position: absolute;
+z-index: 200;
+width: 50vw;
+top: 62vw;
+left: 25vw;
+}
+
+p {position: absolute;
+z-index: 200;
+width: 50vw;
+left: 25vw;
+top: 50.4vw;
+font-family: "Quicksand", sans-serif;
+color: #58333f;
+font-size: 0.94vw;}
+
+#Click {top: 98vw;}
+
+#Threadless {top: 181vw;
+width:43.5vw;
+left: 28vw;}
+
+#Sketch {position: absolute;
+height: 28vw;
+z-index: 50;
+left: 47vw;
+    top: 119vw;}
+
+#Sketch2 {font-family: Amatic SC, sans-serif;
+z-index: 20;
+    position: absolute;
+left: 24vw;
+    text-align: center;
+top: 110.5vw;
+    font-size: 3.5vw;
+    color: #4D2718;}
+
+#Process {position: absolute;
+z-index: 200;
+width: 50vw;
+left: 25vw;
+top: 102vw;
+font-family: "Quicksand", sans-serif;
+color: #58333f;
+font-size: 0.94vw;}
+
+#SketchText {position: absolute;
+z-index: 200;
+width: 21vw;
+left: 25vw;
+top: 124vw;
+font-family: "Quicksand", sans-serif;
+color: #58333f;
+font-size: 0.94vw;}
+
+#LineStudy {position: absolute;
+z-index: 50;
+    font-family: Amatic SC, sans-serif;
+    width: 40vw;
+left: 29vw;
+    text-align: center;
+top: 36.5vw;
+    font-size: 3.5vw;
+    color: #4D2718;
+}
+
+#toplink {z-index: 35;
+    position: absolute;
+    color: #DDA063;
+    top: 99.2vw;
+    left: 40vw; 
+    text-decoration: underline;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 1.5vw;
+    transition: all 0.5s ease;
+}
+
+#toplink:hover {filter: opacity(0.6);
+    -webkit-filter: opacity(0.6);}
